@@ -1,0 +1,11 @@
+openai
+anthropic
+groq
+google-genai
+datasets
+pandas
+numpy
+matplotlib
+seaborn
+scipy
+jupyter

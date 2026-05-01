@@ -1,0 +1,12 @@
+# Never push API keys
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Large data files
+*.parquet
+.ipynb_checkpoints/

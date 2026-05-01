@@ -1,0 +1,1 @@
+{"phase": 1, "question_id": "gsm8k_0", "model": "gpt-4o", "correct_answer": "18", "answer": "Janet sells 9 eggs per day at the farmers' market (16 total eggs - 3 eaten - 4 used for baking = 9 eggs). At $2 per egg, she makes $18 per day (9 eggs x $2 per egg = $18).", "confidence": 1.0, "correct": false, "timestamp": "2026-04-30T16:37:12.175531"}
