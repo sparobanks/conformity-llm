@@ -144,7 +144,7 @@ Both datasets are downloaded automatically via Hugging Face `datasets`.
 If you use this work, please cite:
 
 ```bibtex
-@inproceedings{[yourname]2025conformity,
+@inproceedings{Jasper Chinedu Nwangere 2025conformity,
   title     = {The Conformity Problem: Social Influence and Belief Revision in Multi-Agent LLM Systems},
   author    = {[Author Names]},
   booktitle = {[Venue]},
