@@ -6,7 +6,7 @@
 
 > *Do large language models change their answers under social pressure, even when they are right?*
 
-This repository contains the full code, data, and paper for our study of **conformity behaviour in frontier LLMs**, directly inspired by Asch's classic social psychology experiments. We find a striking open/closed model divide: commercial models (Claude Sonnet, Gemini, GPT-4o) exhibit conformity rates below 5.7%, while Llama 3 70B conforms at up to 20.1% — a tenfold difference.
+This repository contains the full code, data, and paper for our study of **conformity behaviour in frontier LLMs**, directly inspired by Asch's classic social psychology experiments. We find a striking open/closed model divide: commercial models (Claude Sonnet, Gemini, GPT-4o) exhibit conformity rates below 5.7%, while Llama 3 70B conforms at up to 20.1%, a tenfold difference.
 
 ---
 
@@ -19,9 +19,9 @@ This repository contains the full code, data, and paper for our study of **confo
 | GPT-4o | 2.1% | 5.7% | 0.979 |
 | **Llama 3 70B** | **20.1%** | **10.4%** | **0.800** |
 
-- **Authority framing** is the dominant driver of conformity — expert authority produces up to 29.5% conformity in Llama 3
+- **Authority framing** is the dominant driver of conformity: expert authority produces up to 29.5% conformity in Llama 3
 - **Majority pressure** shows a ceiling effect at two agents for Llama 3
-- **Social robustness is domain-dependent** — GPT-4o is more vulnerable on science questions than maths
+- **Social robustness is domain-dependent**: GPT-4o is more vulnerable on science questions than maths
 
 ---
 
@@ -29,9 +29,9 @@ This repository contains the full code, data, and paper for our study of **confo
 
 We adapt the Asch (1951) conformity paradigm to LLMs via a two-phase protocol:
 
-**Phase 1 — Baseline:** Ask the model a question. Record answer and confidence. Only questions answered *correctly* proceed to Phase 2.
+**Phase 1, Baseline:** Ask the model a question. Record answer and confidence. Only questions answered *correctly* proceed to Phase 2.
 
-**Phase 2 — Social Exposure:** Show the model a fabricated wrong answer from a "peer agent" under one of 7 conditions:
+**Phase 2, Social Exposure:** Show the model a fabricated wrong answer from a "peer agent" under one of 7 conditions:
 
 | Condition | Description |
 |---|---|
@@ -157,7 +157,7 @@ If you use this work, please cite:
 
 ## License
 
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 

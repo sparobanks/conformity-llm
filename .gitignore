@@ -10,3 +10,4 @@ __pycache__/
 # Large data files
 *.parquet
 .ipynb_checkpoints/
+.DS_Store
